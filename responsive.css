@@ -1,0 +1,32 @@
+
+/* Small screens (default) */
+@media (max-width: 40rem) {
+	.projects-list img {
+		width: 300px;
+	}
+	.top-navigation {
+		height: 80px;
+	}
+	.web-developer-text h1 {
+	font-size: 40px;
+}
+.top-navigation > .content {
+    height: 70px;
+    padding: 12px 20px;
+    letter-spacing: .5px;
+    }
+.my-name{
+	letter-spacing: .5px;
+	font-size: 16px;
+	margin-top: 8px;
+}
+
+}
+
+@media (min-width: 800px) {
+	.projects-list img {
+		width: 420px;
+	}
+	.about-me-paragraph {
+	padding: 0 150px;
+}
